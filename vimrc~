@@ -62,6 +62,6 @@ inoremap ()     ()
 set autoindent
 colo slate
 syntax on
-colorscheme one-dark
+colorscheme desert
 set nu
 set clipboard=unnamed
