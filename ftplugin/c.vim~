@@ -8,3 +8,11 @@ inoremap <buffer> /if  	if ()<ESC>i
 inoremap <buffer> /ife	if ()<CR><BS>else<ESC>2bli
 inoremap <buffer> /elif else if ()<ESC>i
 inoremap <buffer> /sc	switch() {<CR><TAB><BS>case :<CR>break;<CR><BS>default :<CR>break;<CR>}<ESC>9b2hi
+
+syntax on
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set textwidth=79
+set autoindent
+set fileformat=unix
