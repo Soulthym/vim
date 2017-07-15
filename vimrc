@@ -59,9 +59,16 @@ inoremap (<CR>  (<CR>)<Esc>O
 inoremap ((     (
 inoremap ()     ()
 
-set autoindent
+inoremap "	""<Left>
+inoremap ""	"
+
+inoremap '	''<Left>
+inoremap ''	'
+
+inoremap <	<><Left>
+inoremap <<	<
+
 colo slate
-syntax on
 colorscheme one-dark
 set nu
 set clipboard=unnamed
