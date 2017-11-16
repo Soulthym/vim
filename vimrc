@@ -65,10 +65,11 @@ inoremap ""	"
 inoremap '	''<Left>
 inoremap ''	'
 
-inoremap <	<><Left>
-inoremap <<	<
-
 colo slate
 colorscheme one-dark
 set nu
 set clipboard=unnamed
+
+set undodir=~/.vim/.undo//
+set backupdir=~/.vim/.backup//
+set directory=~/.vim/.swp//
